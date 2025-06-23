@@ -163,6 +163,19 @@
             android:minLines="2"
             android:inputType="textMultiLine"/>
 
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отмена"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"/>
+
     </LinearLayout>
 
 </ScrollView>
