@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cbtDetail"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CbtDetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- Q1 -->
+        <TextView android:text="1. Ситуация, мысль, образ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q2 -->
+        <TextView android:text="2. Какие мысли возникли у вас и насколько вы в них уверены?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q3 -->
+        <TextView android:text="3. Какие эмоции вы испытали?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q4 -->
+        <TextView android:text="4. Каковы доказательства, поддерживающие эту идею? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q5 -->
+        <TextView android:text="5. Каковы доказательства, противоречащие этой идее? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q6 -->
+        <TextView android:text="6. Существует ли альтернативное объяснение? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q7 -->
+        <TextView android:text="7. Что самое плохое может произойти? Смогу ли я пережить это? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q8 -->
+        <TextView android:text="8. Что самое лучшее может произойти? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q9 -->
+        <TextView android:text="9. Каков самый реалистичный исход? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q10 -->
+        <TextView android:text="10. Каковы последствия моей веры в автоматическую мысль? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q11 -->
+        <TextView android:text="11. Каковы могут быть последствия изменения моего мышления? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q12 -->
+        <TextView android:text="12. Что я должен делать в связи с этим? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q13 -->
+        <TextView android:text="13. Что я мог бы посоветовать _______ (другу), который находится в такой же ситуации?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+        <!-- Q14: Spinner -->
+        <TextView android:text="14. Какое когнитивное искажение вы допустили?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerDistortion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Q15 -->
+        <TextView android:text="15. Каковы будут ваши дальнейшие действия?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/inputQ15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:inputType="textMultiLine"/>
+
+    </LinearLayout>
+
+</ScrollView>
